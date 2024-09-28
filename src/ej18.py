@@ -4,12 +4,8 @@
 """
 
 def cambiar_nombre():
-    nombre = str(input("Ingresa tu nombre completo: "))
+    nombre = input("Ingresa tu nombre completo: ")
 
-    repeticion1: str = (nombre.lower)
-    repeticion2: str = (nombre.capitalize)
-    repeticion3:str = (nombre.upper)
-
-    print(repeticion1,repeticion2,repeticion3)
+    print(nombre.upper(),nombre.lower(),nombre.title())
 
 cambiar_nombre()
