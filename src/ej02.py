@@ -8,8 +8,9 @@ Importe total: 60"""
 def calcular_horas():
 
     horas = float(input("Introduce las horas trabajadas: "))
-    preciohora = float(input("Introduce la cuantía que ganas por hora: "))
+    precio_hora = float(input("Introduce la cuantía que ganas por hora: "))
+    salario = horas*precio_hora
 
-    print(horas * preciohora)
+    print("El total de tu salrio es",salario)
 
 calcular_horas()
