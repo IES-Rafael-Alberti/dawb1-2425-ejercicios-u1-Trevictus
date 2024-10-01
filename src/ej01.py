@@ -5,9 +5,12 @@ Escribe tu nombre: Juan
 Hola, Juan.
 """
 
-def pedir_nombre():
-    nombre = input("Por favor , die tu nombre: ")
 
-    print("Hola", nombre)
+def saludar(nombre:str)->str:
+    print(f"Hola, {nombre}")
 
-pedir_nombre()
+def main():
+    saludar(input("Escribe tu nombre: "))
+
+if __name__ == "__main__":
+    main()
