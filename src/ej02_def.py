@@ -1,3 +1,5 @@
+#  - ej02 => recibe horas y coste y retorna el importe total.
+
 
 def calcular_salario(horas, precio_hora):
     return horas * precio_hora
