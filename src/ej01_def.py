@@ -1,7 +1,9 @@
+#  - ej01 => recibe un nombre y retorna una cadena de caracteres con el resultado.
+
 
 
 def saludar(nombre):
-    return "hola, {nombre}"
+    return f"hola, {nombre}"
 
 def main():
     mi_amigo = input("Ingresa tu nombre: ")
