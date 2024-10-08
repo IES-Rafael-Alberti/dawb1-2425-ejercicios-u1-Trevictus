@@ -2,12 +2,13 @@
 
 
 def calcular_salario(horas, precio_hora):
-    return horas * precio_hora
+    return round(horas * precio_hora, 2)
 
 def main():
     horas = float(input("Introduce las horas trabajadas: "))
     precio_hora = float(input("Introduce la cuantía que ganas por hora: "))
-    print(calcular_salario(horas, precio_hora))
+    total = horas * precio_hora
+    print(total)
 
 
 if __name__ == "__main__":

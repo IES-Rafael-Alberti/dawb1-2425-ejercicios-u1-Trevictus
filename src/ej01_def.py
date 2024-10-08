@@ -3,7 +3,7 @@
 
 
 def saludar(nombre):
-    return f"hola, {nombre}"
+    return f"Hola, {nombre}"
 
 def main():
     mi_amigo = input("Ingresa tu nombre: ")

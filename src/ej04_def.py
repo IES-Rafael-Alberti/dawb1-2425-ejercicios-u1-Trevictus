@@ -2,7 +2,7 @@
 
 
 def conversion_celsius():
-    farenheits = float(input("Introduce que tempratura hace n gº Farenheits: "))
+    farenheits = float(input("Introduce que tempratura hace en gº Farenheits, redondeado a dos decimales: "))
     celsius = (farenheits - 32) * (5 / 9)
 
     return "La temperatura en Celsius es {:.2f}ºC ({:.2f})".format(celsius, farenheits)
