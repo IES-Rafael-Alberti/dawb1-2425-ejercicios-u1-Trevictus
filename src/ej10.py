@@ -9,4 +9,9 @@ def operacionAritmetica():
 
     print("La operacion da de resultado:", operacion)
 
-operacionAritmetica()
+
+def main():
+    operacionAritmetica()
+
+if __name__ == "__main__":
+    main()

@@ -9,4 +9,9 @@ def suma_primeros_enteros():
     
     print(f"La suma de los primeros {num} enteros es: {suma}")
 
-suma_primeros_enteros()
+
+def main():
+    suma_primeros_enteros()
+
+if __name__ == "__main__":
+    main()

@@ -11,11 +11,18 @@ Para cada una de las expresiones siguientes, intenta adivinar el valor de la exp
 4. 1 + 2 * 5 -> 11
 Cuando termines comprueba con el intérprete si has acertado."""
 
-ancho = 17
-alto = 12.0
 
-print(ancho / 2)
-print(ancho // 2)
-print(alto / 3)
-print(1 + 2 * 5)
+def main():
+    ancho = 17
+    alto = 12.0
 
+    print(ancho / 2)
+    print(ancho // 2)
+    print(alto / 3)
+    print(1 + 2 * 5)
+
+
+
+
+if __name__ == "__main__":
+    main()

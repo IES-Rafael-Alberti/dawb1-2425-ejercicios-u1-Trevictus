@@ -8,4 +8,9 @@ def calcular_farenheits():
 
     print("La temperatura en Farenheits es", farenheits)
 
-calcular_farenheits()
+
+def main():
+    calcular_farenheits()
+
+if __name__ == "__main__":
+    main()

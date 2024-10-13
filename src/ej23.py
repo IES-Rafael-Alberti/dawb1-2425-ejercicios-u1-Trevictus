@@ -11,4 +11,8 @@ def pedir_correo():
 
     print(nuevo_dominio)
 
-pedir_correo()
+def main():
+    pedir_correo()
+
+if __name__ == "__main__":
+    main()

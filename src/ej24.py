@@ -10,4 +10,8 @@ def desglosar_precio():
 
     print(f"Son {euros}€ y {centimos}cts.")
 
-desglosar_precio()
+def main():
+    desglosar_precio()
+
+if __name__ == "__main__":
+    main()

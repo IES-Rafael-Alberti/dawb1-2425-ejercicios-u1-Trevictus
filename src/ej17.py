@@ -11,4 +11,9 @@ def pregunta_nombre():
 
     print(repeticion)
 
-pregunta_nombre()
+
+def main():
+    pregunta_nombre()
+
+if __name__ == "__main__":
+    main()

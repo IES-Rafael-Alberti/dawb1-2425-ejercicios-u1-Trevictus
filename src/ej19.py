@@ -8,4 +8,9 @@ def contar_nombre():
     n = len(nombre)
     print(f"{nombre.upper()} tiene {n} letras.")
 
-contar_nombre()
+
+def main():
+    contar_nombre()
+
+if __name__ == "__main__":
+    main()

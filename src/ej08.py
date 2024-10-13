@@ -8,4 +8,9 @@ def sumar_tres_numero():
 
     print(f"La suma de todos es: {num}")
 
-sumar_tres_numero()
+
+def main():
+    sumar_tres_numero()
+
+if __name__ == "__main__":
+    main()

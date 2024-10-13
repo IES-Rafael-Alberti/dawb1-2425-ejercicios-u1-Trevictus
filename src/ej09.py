@@ -4,4 +4,9 @@
 def sumar_tres_numero():
     print("Se sumarán los tres nºs: ", float(input( "Introduce el primero: "))+ float(input( "Introduce el segundo: ")) + float(input( "Introduce el tercero: ")))
 
-sumar_tres_numero()
+
+def main():
+    sumar_tres_numero()
+
+if __name__ == "__main__":
+    main()

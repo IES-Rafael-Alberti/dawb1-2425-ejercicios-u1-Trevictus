@@ -8,4 +8,10 @@ def calcular_iva():
     importesiniva = total - ivapagado
 
     print(f"El total con iva es {total}€.\nSuponiendo que has pagado un 10% de IVA la cuota de IVA asciende a {ivapagado}€.\nEl importe del artículo sin el IVA es de {importesiniva}€")
-calcular_iva()
+
+
+def main():
+    calcular_iva()
+
+if __name__ == "__main__":
+    main()

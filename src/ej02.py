@@ -13,4 +13,9 @@ def calcular_horas():
 
     print("El total de tu salrio es",salario)
 
-calcular_horas()
+
+def main():
+    calcular_horas()
+
+if __name__ == "__main__":
+    main()

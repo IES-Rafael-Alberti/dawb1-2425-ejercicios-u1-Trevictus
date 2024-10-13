@@ -10,7 +10,8 @@ def saludar(nombre:str)->str:
     print(f"Hola, {nombre}")
 
 def main():
-    saludar(input("Escribe tu nombre: "))
+    nombre = input("Escribe tu nombre: ")
+    saludar(nombre)
 
 if __name__ == "__main__":
     main()

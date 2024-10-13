@@ -9,4 +9,9 @@ def cociente_resto():
 
     print(f"De la division entre {n} y {m} se obtiene el cociente {c} y el resto {r}.")
 
-cociente_resto()
+
+def main():
+    cociente_resto()
+
+if __name__ == "__main__":
+    main()

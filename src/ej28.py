@@ -20,9 +20,15 @@ def distancia_numeros(num1: int, num2: int) -> tuple:
 
     return menor, distancia
 
-num1 = int(input("Introduce un nº: "))
-num2 = int(input("Introduce el segundo nº: "))
 
-menor, distancia = distancia_numeros(num1, num2)
+def main():
+    num1 = int(input("Introduce un nº: "))
+    num2 = int(input("Introduce el segundo nº: "))
 
-print(f"El nº menor es {menor} y la distancia entre los dos es {distancia}")
+    menor, distancia = distancia_numeros(num1, num2)
+
+    print(f"El nº menor es {menor} y la distancia entre los dos es {distancia}")
+
+
+if __name__ == "__main__":
+    main()

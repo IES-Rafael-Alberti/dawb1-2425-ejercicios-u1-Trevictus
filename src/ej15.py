@@ -14,4 +14,9 @@ def calcular_deposito():
 
     print(f"La cantidad asciende a {calculoanio1} el primer año, a {calculoanio2} el 2º y a {calculoanio3}")
 
-calcular_deposito()
+
+def main():
+    calcular_deposito()
+
+if __name__ == "__main__":
+    main()

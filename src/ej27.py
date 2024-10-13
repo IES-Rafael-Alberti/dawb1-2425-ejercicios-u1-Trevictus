@@ -12,4 +12,9 @@ def definir_producto():
 
     print(f"Producto {nombre}, con un precio de {precio:09.2f}€ siendo {unidades:03d} unidades con un coste total de {total:011.2f}€")
 
-definir_producto()
+
+def main():
+    definir_producto()
+
+if __name__ == "__main__":
+    main()

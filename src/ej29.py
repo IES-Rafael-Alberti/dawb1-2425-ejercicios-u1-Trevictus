@@ -18,4 +18,8 @@ def solicitar_informacion():
 
     print(f"Te llamas {nombre} y tienes {edad} años, te quedan {anios_restantes} años por cumplir.")
 
-solicitar_informacion()
+def main():
+    solicitar_informacion()
+
+if __name__ == "__main__":
+    main()

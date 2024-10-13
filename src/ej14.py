@@ -12,4 +12,9 @@ def calcular_peso_paquete():
 
     print("El paquete pesará",total_peso)
 
-calcular_peso_paquete()
+
+def main():
+    calcular_peso_paquete()
+
+if __name__ == "__main__":
+    main()

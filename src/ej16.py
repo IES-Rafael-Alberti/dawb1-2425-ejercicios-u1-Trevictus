@@ -11,4 +11,9 @@ def precios_barra():
 
     print(f"La barra de hoy sale a un precio de {BARRA}€, si has comprado {barras_ayer_vendidas} barra/s de ayer, recibes un descuento de {DESCUENTO}€ por cada una y el coste total sale a unos {barras_ayer_vendidas * (BARRA * DESCUENTO)}€")
 
-precios_barra()
+
+def main():
+    precios_barra()
+
+if __name__ == "__main__":
+    main()

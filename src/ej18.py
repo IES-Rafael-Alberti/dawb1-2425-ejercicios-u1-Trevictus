@@ -8,4 +8,9 @@ def cambiar_nombre():
 
     print(nombre.upper(),nombre.lower(),nombre.title())
 
-cambiar_nombre()
+
+def main():
+    cambiar_nombre()
+
+if __name__ == "__main__":
+    main()

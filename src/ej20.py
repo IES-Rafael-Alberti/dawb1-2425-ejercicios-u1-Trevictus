@@ -8,4 +8,10 @@ def telefono():
     
     print((numero_tlf.replace("+34-","").replace("-56", "")))
 
-telefono()
+
+
+def main():
+    telefono()
+
+if __name__ == "__main__":
+    main()

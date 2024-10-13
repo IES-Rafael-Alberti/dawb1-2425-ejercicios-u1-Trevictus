@@ -12,4 +12,9 @@ def sumar_tres_numero():
 
     print("La suma de los tres nºs es:",sum(lista))
 
-sumar_tres_numero()
+
+def main():
+    sumar_tres_numero()
+
+if __name__ == "__main__":
+    main()

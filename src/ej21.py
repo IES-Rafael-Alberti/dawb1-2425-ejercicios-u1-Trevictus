@@ -12,4 +12,9 @@ def pedir_frase():
 
     print(frase_invertida)
 
-pedir_frase()
+
+def main():
+    pedir_frase()
+
+if __name__ == "__main__":
+    main()

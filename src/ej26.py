@@ -10,4 +10,8 @@ def lista_compra():
 
     print("\n".join(map(str.strip, productos)))
 
-lista_compra()
+def main():
+    lista_compra()
+
+if __name__ == "__main__":
+    main()

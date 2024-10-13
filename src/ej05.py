@@ -8,4 +8,9 @@ def calcular_con_iva():
 
     print(((importesiniva /100) * iva) + importesiniva)
 
-calcular_con_iva()  
+
+def main():
+    calcular_con_iva()
+
+if __name__ == "__main__":
+    main()

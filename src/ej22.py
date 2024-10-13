@@ -14,4 +14,9 @@ def pedir_frase_y_vocal():
 
     print(frase_cambiada)
 
-pedir_frase_y_vocal()
+
+def main():
+    pedir_frase_y_vocal()
+
+if __name__ == "__main__":
+    main()

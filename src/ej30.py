@@ -21,4 +21,8 @@ def serie_numeros():
 
     print("SERIE=>".join(str(inicio)))
 
-serie_numeros()
+def main():
+    serie_numeros()
+
+if __name__ == "__main__":
+    main()

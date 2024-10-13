@@ -8,4 +8,9 @@ def pedir_peso_altura():
 
     print(f"Tu índice de masa corporal es:", round(imc, 2))
 
-pedir_peso_altura()
+
+def main():
+    pedir_peso_altura()
+
+if __name__ == "__main__":
+    main()

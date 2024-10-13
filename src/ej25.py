@@ -10,4 +10,8 @@ def mostrar_fecha():
 
     print(f"Nació un {dia} del mes {mes} del año {anio}.")
 
-mostrar_fecha()
+def main():
+    mostrar_fecha()
+
+if __name__ == "__main__":
+    main()
