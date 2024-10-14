@@ -25,66 +25,267 @@ def llamar_app(ejercicio):
             else:
                 ejercicio = 0
                 os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 2:
             print("ej02: Calcular salario")
-            ej02.main()
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej02.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+                
         elif ejercicio == 3:
             print("ej03: Calcular")
-            ej03.main()
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej03.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 4:
-            ej04.main()
+            print("ej04: Medir Farenheits")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej04.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 5:
-            ej05.main()
+            print("ej05: Calcular IVA")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej05.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 6:
-            ej06.main()
+            print("ej06: Calcular IVA 2")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej06.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 7:
-            ej07.main()
+            print("ej07: Suma de tres dígitos")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej07.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 8:
-            ej08.main()
+            print("ej08: Suma de tres dígitos con dos variables")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej08.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 9:
-            ej09.main()
+            print("ej09: Suma de tres dígitos sin variables")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej09.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 10:
-            ej10.main()
+            print("ej10: Operación aritmética")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej10.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 11:
-            ej11.main()
+            print("ej11: Suma de los primeros enteros")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej11.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 12:
-            ej12.main()
+            print("ej12: Calcular imc")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej12.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 13:
-            ej13.main()
+            print("ej13: Cociente y resto")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej13.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 14:
-            ej14.main()
+            print("ej14: Calcular peso de paquetes")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej14.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 15:
-            ej15.main()
+            print("ej15: Calcular depositos")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej15.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 16:
-            ej16.main()
+            print("ej16: Calcular precio pan")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej16.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 17:
-            ej17.main()
+            print("ej17: Repetir nombre")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej17.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 18:
-            ej18.main()
+            print("ej18: Mayúsculas y minúsculas")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej18.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 19:
-            ej19.main()
+            print("ej19: Contar letras de nombre")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej19.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 20:
-            ej20.main()
+            print("ej20: Prefijo y extensión")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej20.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 21:
-            ej21.main()
+            print("ej21: Frase invertida")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej21.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 22:
-            ej22.main()
+            print("ej22: Vocales en mayúsculas")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej22.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 23:
-            ej23.main()
+            print("ej23: Dominio ceu.es")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej23.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 24:
-            ej24.main()
+            print("ej24: Desglosar precio")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej24.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 25:
-            ej25.main()
+            print("ej25: Fecha con formato")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej25.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 26:
-            ej26.main()
+            print("ej26: Lista de la compra")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej26.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 27:
-            ej27.main()
+            print("ej27: Definir producto")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej27.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 28:
-            ej28.main()
+            print("ej28: Distancia entre dígitos")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej28.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 29:
-            ej29.main()
+            print("ej29: Definir edad")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej29.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')
+
         elif ejercicio == 30:
-            ej30.main()   
+            print("ej30: Cadena con incremento")
+            ejecutar = input("¿Desea ejecutar el programa?")
+            if ejecutar in lista_aceptar:
+                ej30.main()
+            else:
+                ejercicio = 0
+                os.system('cls' if os.name == 'nt' else 'clear')   
         # Crea un bucle para que pida un número que sea aceptado
         
 
