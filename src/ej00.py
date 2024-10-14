@@ -7,7 +7,7 @@ def intro():
     print("Bienvenido a la unidad 1!")
 
 
-def llamar_app(ejercicio):
+def llamar_app():
         # La variable ejercicio inicializaa a valor limpio
     ejercicio = 0
 
